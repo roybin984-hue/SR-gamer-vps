@@ -5,7 +5,7 @@ import pytz
 import re
 
 app = Flask(__name__)
-app.secret_key = "SHADOW-X-MODS"
+app.secret_key = "SR-GAMER-1298"
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 USERS_ROOT = os.path.join(BASE_DIR, 'users')
