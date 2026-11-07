@@ -243,8 +243,8 @@ def start_file(filename):
 
 # --- গিটহাব ব্যাকআপ লজিক (এটি সবার উপরে থাকবে) ---
 def auto_github_backup(username, filename, file_path):
-    GITHUB_TOKEN = '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' # টোকেন ঠিক থাকলে কাজ করবে
-    GITHUB_REPO = 'ronobiswas874-sketch/Hosting-files'
+    GITHUB_TOKEN = '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' # টোকেন ঠিক থাকলে কাজ করবে
+    GITHUB_REPO = 'roybin984-hue/SR-gamer-vps'
     
     github_path = f"users/{username}/{filename}"
     url = f"https://api.github.com/repos/{GITHUB_REPO}/contents/{github_path}"
