@@ -19,8 +19,8 @@ import os
 from flask import jsonify, request, session, render_template, redirect, url_for
 
 # --- গ্লোবাল গিটহাব সেটিংস ---
-GITHUB_TOKEN = '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'
-GITHUB_REPO = 'Manohar81020/SHADOW-WEB-BOT-HOST-BOT'
+GITHUB_TOKEN = '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'
+GITHUB_REPO = 'roybin984-hue/SR-gamer-vps'
 GITHUB_URL = f"https://api.github.com/repos/{GITHUB_REPO}/contents/users.json"
 
 OPENROUTER_API_KEY = "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"
